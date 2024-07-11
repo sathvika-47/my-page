@@ -1,0 +1,241 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+.container, .slide {
+    width: 100%;
+    height: 100vh;
+    display: none;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container.active, .slide.active {
+    display: block;
+  
+}
+
+  
+
+#slide1 {
+    background-image: url('https://i.postimg.cc/sDRgSK1F/Whats-App-Image-2024-07-11-at-3-19-47-AM.jpg'); /* Adjust the path if the image is in a different directory */
+    background-size: cover;
+    background-position: center;
+}
+#slide1 h1 {
+  color:#ffffff;
+  margin-top:150px;
+}
+.con1 {
+  margin-top:80px;
+  color: #ffffff;
+}
+.box1 {
+  background-color:#cff5a9 ; /* Box background color */
+    border: 1px solid #c7a465; /* Box border */
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 1px; /* Adjust margin top */
+    margin-bottom: 1px; /* Adjust margin bottom */
+    margin-left: auto; /* Adjust margin left */
+    margin-right: auto; /* Adjust margin right */
+    max-width: 80%; /* Limit box width to 80% of the viewport width */
+    width: fit-content; 
+}
+
+.slide-content {
+    margin-top:;
+}
+#slide1 h1{
+  text-align:centre;
+}
+.slide-box {
+    background-color:#f7f3f2 ; /* Box background color */
+    border: 1px solid #141414; /* Box border */
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 50px; /* Adjust margin top */
+    margin-bottom: 20px; /* Adjust margin bottom */
+    margin-left: auto; /* Adjust margin left */
+    margin-right: auto; /* Adjust margin right */
+    max-width: 80%; /* Limit box width to 80% of the viewport width */
+    width: fit-content; 
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #deffbd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+.popup button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #6eb825;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.popup button:hover {
+    background-color: #63a621;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+#slide2 {
+    background-image: url('https://i.postimg.cc/yxWXhKK2/Whats-App-Image-2024-07-11-at-7-32-28-AM.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.letter {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    height: 70%; /* Ensure the letter container takes full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the left */
+    
+    max-width: 80%; /* Limit width of letter box */
+     /* Allow box to expand based on content */
+    margin-left : 15px;
+    margin-right:600px;
+}
+#slide2 h1 {
+    margin-top: 40px; /* Example: Adjust margin top to move the h1 text downwards */
+  font-family:"Times New Roman", Times, serif;
+}
+
+
+.question-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.yes-button {
+    background-color: #28a745;
+    color: white;
+}
+.no-button {
+    background-color: #dc3545;
+    color: white;
+}
+.popup {
+    background-color: #ccb083; /* Change background color to blue */
+    color: white; /* Change text color to white */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    padding: 20px; /* Optional: Increase padding */
+}
+
+.popup-button {
+    background-color:#966515;
+    border: solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#slide3 {
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210416/pngtree-vintage-paper-background-with-old-feather-pen-image_627028.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+#slide3 p{
+  font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+}
+#canvas {
+    border: 2px solid #000;
+    
+}
+
+.submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #633f04;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #4f3202;
+}
+
+.back-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #fffbf5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+#slide4 {
+  background-image: url('https://media.istockphoto.com/id/1446805742/vector/vector-illustration-of-cute-pastel-pink-hearts-background-with-copy-space.jpg?s=612x612&w=0&k=20&c=SBOx-q3fvFpaZxAQ9xEpkiFwIeI7lecxDVv-zV2j8zw='); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#slide4 h1 {
+  margin-top:240px;
+  text-align:center;
+  font-style:Georgia (serif);
+  font-size:90px;
+  color: #fc7ec6;
+}
+#home-button {
+  position: absolute;
+    bottom: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px 20px;
+    background-color: #856120; /* Change to your desired color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#home-button:hover {
+    background-color: #6e5018; /* Change to your desired hover color */
+}
+

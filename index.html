@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Grateful Reverie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container active" id="slide1">
+        <h1>Welcome, My Dear Chilaka</h1>
+     <div class='con1'>
+
+       
+                   <p>Nuvvu eh na kaada ani thelusukovadaniki oka chinna question.... </p>
+      
+  </div>
+      <div class='slide-content'>
+        <div class='slide-box'>
+        
+      <p> Manaki relate ayyela oka 4-digit number type cheyyu.</p>
+      </div>
+      </div>
+        <input type="text" id="answer" placeholder="Type your answer here">
+        <button onclick="checkAnswer()">Submit</button>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup" id="popup">
+        <p id="popup-text"></p>
+        <button id="popup-button" onclick="closePopup()">Try Again</button>
+    </div>
+
+    <div class="slide" id="slide2">
+        <h1>In Grateful Reverie</h1>
+        <div class="letter">
+            <p>Dear Karthik,</p>
+            <p>In the quiet moments when solitude wraps around me like a familiar shawl, you've been my constant companion, much like the moon that graces the night sky. Whether in my brightest days or darkest nights, your presence has brought me comfort beyond measure.
+
+There's something about you that makes sharing my deepest feelings feel effortless. While I cherish my parents dearly, there's a fear that sometimes holds me back from confiding in them completely. Yet with you, it's different. I feel at ease, unburdened by uncertainty.
+
+I confess, I often worry about making missteps without their guidance. It's in these moments that I find myself leaning on you, trusting your wisdom and support like I do with my father. You're not just a friend; you're a pillar of strength, someone I can rely on without hesitation.
+
+I promise not to burden you but to be the companion you've always been to me—a source of laughter, comfort, and unwavering support. Together, let's navigate this journey of life, knowing that with you by my side, there's nothing we can't face.</p>
+            <p>
+  Will you be the key that unlocks the gates to my happiness and success, guiding me through every threshold with unwavering support and wisdom ?
+</p>
+        </div>
+        <div class="question-buttons">
+            <button class="yes-button" onclick="showSlide3()">Yes</button>
+            <button class="no-button" onclick="showNoPopup()">No</button>
+        </div>
+    </div>
+
+    <div class="popup" id="no-popup">
+      <p>Vignana pradarshanalu vaddhu.Neeku no ane option ledu kaani</p>
+          <p>yes select chey bujji.</p>
+        <button onclick="closeNoPopup()">OK</button>
+    </div>
+
+    <div class="slide" id="slide3">
+        <h1>Your Autograph please!!</h1>
+
+        <canvas id="canvas" width="500" height="400"></canvas>
+            <p> Kindly take screenshot of your signature !</p>
+        <button class="submit-button" onclick="showSlide4()">Submit</button>
+   <button id="back-button" onclick="">Back</button>
+ </div>
+  
+
+  
+
+
+    <div class="container" id="slide4">
+        <h1>Thank you Nani</h1>
+      <button id="home-button">Home</button>
+        
+      
+
+
+
+
+    
+
+  
+ 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
